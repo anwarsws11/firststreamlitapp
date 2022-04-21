@@ -63,7 +63,7 @@ import snowflake.connector
 streamlit.header("The Fruit Load List Contains:")
 
 def insert_row_snowflake(new_fruit):
-    my_cur = my_cnx.cursor():
+    my_cur = my_cnx.cursor()
     my_cur.execute("insert in to fruit_load_list values ('from streamlit')")
     return "Thanks for Adding " + new_fruit
     
