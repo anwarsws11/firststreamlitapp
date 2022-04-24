@@ -36,7 +36,7 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 # Display the Table on the Page
 streamlit.dataframe(fruits_to_show)
 
-streamlit.stop()
+#streamlit.stop()
 
 
 # New Section to Display fruityvice API Responce
